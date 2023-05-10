@@ -1,0 +1,35 @@
+title Unidrive
+
+actor User
+participant Web as web
+participant Constroller as controller
+participant useCase
+participant repository
+participant Banco de dados as banco
+
+User -> Web: Realiza a requisição
+web->controller: Requisição http
+activate web
+activate controller
+
+controller-> useCase: Encaminhamento da requisição 
+activate useCase
+useCase->repository: Solicitação de consulta ao BD
+activate repository
+
+repository->banco: Consulta ao BD via Query
+activate banco
+
+banco-->repository: Retorna valor
+deactivate banco
+
+repository->useCase: Retorna a consulta sem tratamento
+deactivate repository
+
+useCase-->controller: Retorna o dado tratado
+deactivate useCase
+
+controller-->web: Retorna a informação
+deactivate controller
+note left of web: Disponibiliza dados para visualização
+deactivate web
