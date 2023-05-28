@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="br.com.unidrive.application.useCase" version="4">
+  <OBJECT>
+    <ID name="br.com.unidrive.application.useCase" mc="Standard.Package" uid="be501104-1a3d-4ea3-817b-444e9bdabdb5"/>
+    <PID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[br.com.unidrive.application.useCase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AgendamentoUseCaseImpl" mc="Standard.Class" uid="37dcbe8f-11fe-44d1-a00f-4a26bf43be13"/>
+        <COMPID name="UsuarioUseCaseimpl" mc="Standard.Class" uid="0a088595-8986-4a29-ab36-ad0937ad04fc"/>
+        <COMPID name="CarroUseCaseImpl" mc="Standard.Class" uid="b6050608-c174-437f-8b65-a99470081b24"/>
+        <COMPID name="ComcessionariaUseCaseImpl" mc="Standard.Class" uid="00e68aaf-c8a1-4b56-a33d-1b7c56011214"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

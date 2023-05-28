@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="br.com.unidrive.application.controller" version="4">
+  <OBJECT>
+    <ID name="br.com.unidrive.application.controller" mc="Standard.Package" uid="82b971f3-b6f3-4888-83d7-3dbd2fb8604e"/>
+    <PID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[br.com.unidrive.application.controller]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AgendamentoController" mc="Standard.Class" uid="4e3d9d1d-6c55-45e8-944b-813afa122ad1"/>
+        <COMPID name="UsuraioController" mc="Standard.Class" uid="7165f364-f455-4d80-86a1-38b571563c79"/>
+        <COMPID name="CarroController" mc="Standard.Class" uid="cd7117c5-6acb-41dd-abf4-75494557127b"/>
+        <COMPID name="ConcessionariaControl" mc="Standard.Class" uid="3b12d8d4-7a22-4806-89b2-30f6a5446744"/>
+        <COMPID name="AutenticacaoController" mc="Standard.Class" uid="bdcf34fb-f074-4c3a-a7a2-b97fb83b84b9"/>
+        <COMPID name="dto" mc="Standard.Package" uid="ba58607b-a371-454a-bced-a18d0931af52"/>
+        <COMPID name="form" mc="Standard.Package" uid="49f4b94b-a8e9-4dc1-8373-472f8dd8eeb2"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6e8600a4-ba23-45b8-a225-9ea585726be3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

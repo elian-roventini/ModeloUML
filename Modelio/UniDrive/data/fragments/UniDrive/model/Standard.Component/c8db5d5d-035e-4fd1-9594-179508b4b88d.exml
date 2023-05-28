@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="car/index.blade.php" version="4">
+  <OBJECT>
+    <ID name="car/index.blade.php" mc="Standard.Component" uid="c8db5d5d-035e-4fd1-9594-179508b4b88d"/>
+    <PID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[car/index.blade.php]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.ElementRealization" uid="cd7f33d3-ccd5-4519-883e-a01900dca2e3"/>
+          <ATTRIBUTES>
+            <ATT name="Mapping"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="CarroController.java" mc="Standard.Component" uid="2267ebbf-4a99-470e-b3f6-4f85c392e02f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

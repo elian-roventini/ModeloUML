@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="br.com.unidrive.domain.contract.model" version="4">
+  <OBJECT>
+    <ID name="br.com.unidrive.domain.contract.model" mc="Standard.Package" uid="e458bd83-c3b5-4b79-9748-9773c8f43463"/>
+    <PID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[br.com.unidrive.domain.contract.model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Agendamento" mc="Standard.Class" uid="92f8d415-0628-4848-958f-72920c713c36"/>
+        <COMPID name="Usuario" mc="Standard.Class" uid="04873e9e-76af-42a8-899a-9fd4f07afe1c"/>
+        <COMPID name="Carro" mc="Standard.Class" uid="d472204b-3d37-4ebb-a5ed-3998735fcc97"/>
+        <COMPID name="Concessionaria" mc="Standard.Class" uid="16d7875c-77c2-427a-9cb0-ebf601f2b34a"/>
+        <COMPID name="Perfil" mc="Standard.Class" uid="28853d2a-546a-4b8e-8708-d4e511b5356e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

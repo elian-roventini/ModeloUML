@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AgendamentoUseCase" version="4">
+  <OBJECT>
+    <ID name="AgendamentoUseCase" mc="Standard.Class" uid="528c2112-e2b0-4e64-b35c-9b5c7fffb65f"/>
+    <PID name="br.com.unidrive.application.controller" mc="Standard.Package" uid="18a5b136-29d6-4364-b8d1-6beda0124986"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[AgendamentoUseCase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="unidrive" version="4">
+  <OBJECT>
+    <ID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+    <PID name="UniDrive" mc="Standard.Project" uid="9a72028c-2348-4838-b1e6-ab171f643503"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[unidrive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="br.com.unidrive.application.controller" mc="Standard.Package" uid="18a5b136-29d6-4364-b8d1-6beda0124986"/>
+        <COMPID name="br.com.unidrive.application.controller" mc="Standard.Package" uid="82b971f3-b6f3-4888-83d7-3dbd2fb8604e"/>
+        <COMPID name="br.com.unidrive.domain.contract.model" mc="Standard.Package" uid="e458bd83-c3b5-4b79-9748-9773c8f43463"/>
+        <COMPID name="br.com.unidrive.application.useCase" mc="Standard.Package" uid="be501104-1a3d-4ea3-817b-444e9bdabdb5"/>
+        <COMPID name="br.com.unidrive.infrastructure.repository" mc="Standard.Package" uid="984b8ab5-1dc4-4d8a-b487-8476c46c6b7d"/>
+        <COMPID name="br.com.unidrive.infrastructure.config" mc="Standard.Package" uid="e366eb5e-6420-498f-b13a-5ddb4ac42f33"/>
+        <COMPID name="Usuário" mc="Standard.Actor" uid="7d3f3e99-20af-4ecd-9073-67016f434bab"/>
+        <COMPID name="Concessionária" mc="Standard.Actor" uid="2423a3b1-4fab-4b7f-969a-cb9cb99a0be1"/>
+        <COMPID name="CRUD Veículo" mc="Standard.UseCase" uid="dc676d85-7b9b-4e54-a519-b8d244342c31"/>
+        <COMPID name="Procurar Veículo" mc="Standard.UseCase" uid="d2844314-8c73-4381-be4a-f48b51c47cc4"/>
+        <COMPID name="Gerar Registro de Agendamento" mc="Standard.UseCase" uid="0e4d451e-1176-4e69-86cf-afe40ce87266"/>
+        <COMPID name="Verificar agendamento" mc="Standard.UseCase" uid="b37c6e2f-71fa-44ae-9698-e382f444b0db"/>
+        <COMPID name="Cancelar Agendamento" mc="Standard.UseCase" uid="8a34392e-874f-4dae-a020-27e1c69ec810"/>
+        <COMPID name="Alterar Agendamento" mc="Standard.UseCase" uid="7f8e9c53-4cce-458e-97d0-9feb1c7d6ee6"/>
+        <COMPID name="user/create.blade.php" mc="Standard.Component" uid="5edad688-2d79-4401-872b-9c8dabbea6c5"/>
+        <COMPID name="home/index.blade.php" mc="Standard.Component" uid="280a039f-cca5-4f2a-b486-bbe5bdfc7921"/>
+        <COMPID name="dealership/create.blade.php" mc="Standard.Component" uid="93f8c08e-20f4-4713-947a-811fd763b66d"/>
+        <COMPID name="dashboard/index.blade.php" mc="Standard.Component" uid="41aea387-12f5-43e6-9b6e-2c7feed246d7"/>
+        <COMPID name="UsuarioController.java" mc="Standard.Component" uid="f957e5f1-a695-4137-89c4-3b6354763db5"/>
+        <COMPID name="AutenticacaoController.java" mc="Standard.Component" uid="00c85d7c-f40a-4c19-bac9-dd8a3f04ab52"/>
+        <COMPID name="ConcessionariaController.java" mc="Standard.Component" uid="d962ba21-48ae-45bb-8748-6c672a2ecd1d"/>
+        <COMPID name="CarroController.java" mc="Standard.Component" uid="2267ebbf-4a99-470e-b3f6-4f85c392e02f"/>
+        <COMPID name="AgendamentoController.java" mc="Standard.Component" uid="9b70369a-073a-4d34-81fe-b3df1ba44b25"/>
+        <COMPID name="car/index.blade.php" mc="Standard.Component" uid="c8db5d5d-035e-4fd1-9594-179508b4b88d"/>
+        <COMPID name="car/show.blade.php" mc="Standard.Component" uid="d6fba5bc-30c7-427c-8880-3b10def82889"/>
+        <COMPID name="db.mysql" mc="Standard.Component" uid="881b4c8a-e258-4871-a4fc-62c1415ce890"/>
+        <COMPID name="Servidor Web da Aplicação" mc="Standard.Node" uid="9a48b933-1733-454e-bda0-e5d7738cb7f1"/>
+        <COMPID name="WebSite/Smartphone" mc="Standard.Node" uid="6032d837-e59a-41c2-a524-cd3499c69dad"/>
+        <COMPID name="Servidor Banco de Dados" mc="Standard.Node" uid="c0098772-f4bb-42ce-944a-33689c9f4e0f"/>
+        <COMPID name="auth/login.blade.php" mc="Standard.Component" uid="634d97ae-e156-468d-b192-007206b1262d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de Classe" mc="Standard.ClassDiagram" uid="1dee0212-0b1e-4a2e-84b1-92aadc6f247b"/>
+        <COMPID name="Diagrama de Caso de Uso" mc="Standard.UseCaseDiagram" uid="a0d8407f-a4f5-4694-b262-3556432b3693"/>
+        <COMPID name="Diagrama de Componentes" mc="Standard.ClassDiagram" uid="662bcb0d-eb7a-42d9-896e-97213dc70ba4"/>
+        <COMPID name="Diagrama de Implantação" mc="Standard.DeploymentDiagram" uid="18c4da1c-7973-417a-8eaf-9f2c3e7dcdcb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

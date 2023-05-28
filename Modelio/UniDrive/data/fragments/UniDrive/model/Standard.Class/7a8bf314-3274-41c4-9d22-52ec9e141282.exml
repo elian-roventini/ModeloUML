@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ConcessionariaUseCase" version="4">
+  <OBJECT>
+    <ID name="ConcessionariaUseCase" mc="Standard.Class" uid="7a8bf314-3274-41c4-9d22-52ec9e141282"/>
+    <PID name="br.com.unidrive.application.controller" mc="Standard.Package" uid="18a5b136-29d6-4364-b8d1-6beda0124986"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ConcessionariaUseCase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

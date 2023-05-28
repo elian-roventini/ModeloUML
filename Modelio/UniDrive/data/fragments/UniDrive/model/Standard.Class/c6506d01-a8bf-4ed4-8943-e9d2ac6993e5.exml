@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CarroRepository" version="4">
+  <OBJECT>
+    <ID name="CarroRepository" mc="Standard.Class" uid="c6506d01-a8bf-4ed4-8943-e9d2ac6993e5"/>
+    <PID name="br.com.unidrive.infrastructure.repository" mc="Standard.Package" uid="984b8ab5-1dc4-4d8a-b487-8476c46c6b7d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CarroRepository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UniDrive" version="4">
+  <OBJECT>
+    <ID name="UniDrive" mc="Standard.Project" uid="9a72028c-2348-4838-b1e6-ab171f643503"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[UniDrive]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="unidrive" mc="Standard.Package" uid="e964dda1-cf0b-4dbb-84fb-86f87762a809"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="UniDrive" mc="Infrastructure.DiagramSet" uid="b5434e88-778d-4f5b-a074-57b82856eef2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

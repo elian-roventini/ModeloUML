@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Validacao" version="4">
+  <OBJECT>
+    <ID name="Validacao" mc="Standard.Package" uid="ad3b49d9-5e75-431f-a17c-ffa66aff5d64"/>
+    <PID name="br.com.unidrive.infrastructure.config" mc="Standard.Package" uid="e366eb5e-6420-498f-b13a-5ddb4ac42f33"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Validacao]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

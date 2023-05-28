@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CarroUseCaseImpl" version="4">
+  <OBJECT>
+    <ID name="CarroUseCaseImpl" mc="Standard.Class" uid="b6050608-c174-437f-8b65-a99470081b24"/>
+    <PID name="br.com.unidrive.application.useCase" mc="Standard.Package" uid="be501104-1a3d-4ea3-817b-444e9bdabdb5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CarroUseCaseImpl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
